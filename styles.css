@@ -106,8 +106,8 @@ a:hover { text-decoration: underline; }
 }
 
 .hero {
-  padding: 4rem 0 0;
-  max-width: 780px;
+  padding: 3.25rem 0 0;
+  max-width: 760px;
 }
 
 .eyebrow {
@@ -251,6 +251,24 @@ main { padding: 2.5rem 0 5rem; }
 .section h2 { margin-bottom: 0.75rem; font-size: clamp(1.7rem, 3vw, 2.35rem); }
 .lead { color: var(--muted); max-width: 850px; font-size: 1.04rem; }
 .small-note, .muted { color: var(--muted); }
+
+.top-capture-section {
+  margin-top: 0.5rem;
+}
+
+.narrow-section {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.simple-copy-card {
+  padding: 1.6rem 1.6rem 1.45rem;
+}
+
+.compact-capture-card {
+  align-items: start;
+}
 
 .checklist {
   margin: 1rem 0 0;
