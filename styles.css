@@ -270,6 +270,28 @@ main { padding: 2.5rem 0 5rem; }
   align-items: start;
 }
 
+.offer-layout {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 1.25rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.offer-cta-box {
+  background: linear-gradient(180deg, #eef2ff, #f8fbff);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.2rem;
+}
+
+.large-button {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 1.15rem;
+  font-size: 1rem;
+}
+
 .checklist {
   margin: 1rem 0 0;
   padding-left: 1.2rem;
@@ -323,7 +345,8 @@ main { padding: 2.5rem 0 5rem; }
 }
 
 @media (max-width: 780px) {
-  .email-capture-card {
+  .email-capture-card,
+  .offer-layout {
     grid-template-columns: 1fr;
   }
 
